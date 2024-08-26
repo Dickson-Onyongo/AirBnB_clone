@@ -1,0 +1,39 @@
+.container {
+    max-width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    width: 600px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    position: relative;
+}
+
+
+.filters button {
+    background-color: #ff5a5f;
+    color: #ffffff;
+    height: 48px;
+    width: 30%;
+    border: 0;
+    border-radius: 4px;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    opacity: 0.7;
+    float: right;
+    font-size: 18px;
+
+}
+.filters button:hover {
+    opacity: 0.9;
+}
